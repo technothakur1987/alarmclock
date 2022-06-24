@@ -1,0 +1,209 @@
+/*320px — 480px: Mobile devices.
+481px — 768px: iPads, Tablets.
+769px — 1024px: Small screens, laptops.
+1025px — 1200px: Desktops, large screens.*/
+
+
+/*mediaquerie for dsektop and large screen */
+@media (min-width: 1025px) and (max-width: 1200px){
+    /* no change required */
+}
+
+/*mediaquerie for Small screens, laptops */
+@media (min-width: 769px) and (max-width: 1024px){
+    
+    #sidenav ul li{
+        font-size: 1.5rem ;
+    }
+    footer ul li{
+        font-size: 2.0rem;
+    }
+    #timezone h1{
+        font-size: 4.5rem;
+    }
+    #timerBox{
+        width:60rem;
+        
+    }
+    #timerBox input{
+        font-size: 5rem;
+    }
+    #stopWatchDiv1,#stopWatchDiv3{
+        height: 13rem;
+        width:13rem;
+        font-size: 10rem;
+
+    }
+    #stopWatchDiv2{
+        height: 13rem;
+        width:6rem;
+        font-size: 10rem;
+
+    }
+    #StopWatchBtn button{
+        height: 5.0rem;
+        font-size: 2.1rem;
+    }
+    #dropdownMenu ul{
+        width:14vw;
+    }
+    
+}
+/*mediaquerie for iPads, Tablets. */
+@media (min-width: 481px) and (max-width:   768px){
+    
+    .h1Class{
+        font-size: 2rem ;
+        padding-top: 0.3rem ;
+    }
+    #sidenav ul li{
+        font-size: 1.0rem ;
+        font-weight: bolder;
+    }
+    footer ul li{
+        font-size:1.0rem;
+        font-weight: bolder
+    }
+    #timezone h1{
+        font-size: 3rem;
+    }
+    .center{
+        margin-left:7.5rem
+    }
+    h2{
+        font-size: 1.3rem;
+    }
+    ::placeholder{
+        color:red;
+        font-size: 1.5rem ;
+         font-family: cursive;
+         padding: 0.5rem ;
+    }
+    #alarm{
+       
+        width:-webkit-fill-available;
+        margin-top: 0.2rem ;
+    }
+    #alarmHelp{
+        font-size: 1rem;
+        
+        
+    }
+    #alarmSubmit,#snoozeAlarm{
+        font-size: 1rem ;
+        margin-top: 0.5rem ;
+
+    }
+    
+    #timerBox{
+        width:40rem;
+       
+        
+    }
+    #timerBox input{
+        font-size: 5rem;
+    }
+    #stopWatchDiv1,#stopWatchDiv3{
+        height: 11.5rem;
+        width:11.5rem;
+        font-size: 8.1rem;
+       
+
+    }
+    #stopWatchDiv2{
+        height: 11.5rem;
+        width:6rem;
+        font-size: 8rem;
+
+    }
+    #StopWatchBtn button{
+        height: 5.0rem;
+        font-size:1.9rem;
+        margin-left: 0.2rem ;
+    }
+    #dropdownMenu ul{
+        width:23vw;
+    }
+
+
+
+}
+/*mediaquerie for Mobile devices. */
+@media (min-width: 320px) and (max-width:   480px){
+    
+    .h1Class{
+        font-size: 1.7rem ;
+        padding-top: 0.9rem ;
+    }
+    #sidenav ul li{
+        font-size: 1.0rem ;
+        font-weight: bolder;
+    }
+    footer ul li{
+        font-size:1.0rem;
+        font-weight: bolder
+    }
+    #timezone h1{
+        font-size: 3rem;
+    }
+    .center{
+        margin-left:7.5rem
+    }
+    h2{
+        font-size: 1.3rem;
+    }
+    ::placeholder{
+        color:red;
+        font-size: 1.5rem ;
+         font-family: cursive;
+         padding: 0.5rem ;
+    }
+    #alarm{
+       
+        width:-webkit-fill-available;
+        margin-top: 0.2rem ;
+    }
+    #alarmHelp{
+        font-size: 1rem;
+        
+        
+    }
+    #alarmSubmit,#snoozeAlarm{
+        font-size: 1rem ;
+        margin-top: 0.5rem ;
+
+    }
+    
+    #timerBox{
+        width:40rem;
+       
+        
+    }
+    #timerBox input{
+        font-size: 5rem;
+    }
+    #stopWatchDiv1,#stopWatchDiv3{
+        height: 11.5rem;
+        width:11.5rem;
+        font-size: 8.1rem;
+       
+
+    }
+    #stopWatchDiv2{
+        height: 11.5rem;
+        width:6rem;
+        font-size: 8rem;
+
+    }
+    #StopWatchBtn button{
+        height: 5.0rem;
+        font-size:1.9rem;
+        margin-left: 0.2rem ;
+    }
+    #dropdownMenu ul{
+        width:23vw;
+    }
+
+
+    /*#navbar ul li h3*/
+}

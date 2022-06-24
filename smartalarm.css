@@ -1,0 +1,508 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 10px ;
+
+}
+body{
+    position: relative;
+}
+/*css for header*/
+header{
+    /*border: 1px solid red;*/
+    height: 8rem; 
+    background-color: #4eaadb;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgb(241, 234, 234);
+}
+#logo{
+    
+    height: 8rem;
+    flex-basis: 40%;
+}
+.h1Class{
+    font-family: cursive;
+    text-decoration: none;
+    
+   
+    font-size: 3rem;
+    color:white;
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+   
+
+}
+.h1Class:hover{
+    font-family: cursive;
+   
+    font-size: 3.2rem;
+    color:white;
+    margin-left: 1.3rem;
+    margin-top: 1.8rem;
+    cursor: pointer;
+    
+}
+#logoanchor{
+    text-decoration: none;
+    
+}
+
+#navbar{
+    
+    height: 8rem;
+    flex-basis:60%;
+    
+}
+#navbar ul{
+    
+    display: flex;
+    flex-direction: row-reverse;
+    height: 5rem;
+    list-style-type: none;
+   
+    
+   
+    
+
+}
+#navbar ul li h3{
+   
+    font-size: 2rem;
+    margin-right: 4rem ;
+    list-style-type: none;
+    padding-top: 3.0rem ;
+    padding-right: 1rem ;
+    color: white;
+   
+    
+}
+#navbar ul li{
+    position: relative;
+}
+#navbar ul li h3:hover{
+    
+    font-size: 2.3rem;
+    cursor: pointer;
+    
+   
+   
+    
+    
+}
+#arr22{
+    display: none   ;
+}
+
+
+
+/*css for sidenav*/
+#sidenav{
+   
+    height: 47.9rem ; 
+    
+    width:12vw;
+    background-color: grey;
+    position: absolute;
+   /*display: none;*/
+   border: 1px solid white;
+}
+#sidenav ul{
+    height: 47.9rem ;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style:none ;
+    
+}
+#sidenav ul li a{
+    text-decoration: none;
+    color: black;
+}
+#sidenav ul li{
+    font-size: 1.9rem ;
+    font-family: cursive;
+   
+    
+}
+#sidenav ul li:hover{
+    font-size: 2.2rem
+
+}
+
+/*css for main where time is shown */
+.main{
+    
+    background-color: whitesmoke;
+    height: 48rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.center{
+    border: 1px groove black ;
+    border-radius: 2rem ;
+    height: 40rem;
+    width: 80rem ;
+    margin-left: 12.5rem ;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+
+/*css for timer */
+#timer{
+    display: none;
+}
+/*css for timezone */
+#timezone h1{
+    font-size: 7rem ;
+    
+}
+
+
+
+
+
+/*css for footer*/
+footer{
+    height: 7.9rem; 
+    background-color: #4eaadb;
+    margin-top:0rem ;
+    border: 1px solid white;
+    
+    
+}
+footer ul {
+    
+    height: 7.9rem; 
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+}
+footer ul li {
+    
+    list-style-type: none;
+    font-family: cursive;
+   
+    font-size:2.3rem;
+    color:white;
+    
+    
+}
+footer ul li:hover {
+    
+    list-style-type: none;
+    font-family: cursive;
+   
+    font-size:2.8rem;
+    color:white;
+    cursor: pointer;
+    
+    
+    
+}
+
+
+
+
+
+
+/*css for zzz*/
+.formdiv{
+   
+    font-family: cursive;
+    
+}
+.formdiv h1{
+    font-size: 5rem ;
+   
+}
+.formdiv label{
+    font-size: 2rem ;
+}
+.formdiv input{
+    width: 100%;
+    height: 3rem  ;
+    border-radius: 1.5rem ;
+    background-color:whitesmoke ;
+    
+}
+::placeholder{
+    color:red;
+    font-size: 2rem ;
+     font-family: cursive;
+     padding: 0.5rem ;
+}
+ button{
+     border-radius: 1rem ;
+     height: 4rem ;
+     width: fit-content;
+     padding: 0.5rem ;
+     background-color:#4eaadb ;
+     font-size: 2rem ;
+     font-family: cursive;
+     color: white;
+
+     
+}
+button:hover{
+    border-radius: 1.5rem ;
+    color:red;
+     cursor:pointer;
+
+}
+#alarmHelp{
+    font-size:2rem;
+}
+
+
+
+
+
+
+
+/*css for timer page (zz1)*/
+
+.center{
+    display: flex;
+    flex-direction: column;
+}
+.center h1{
+    font-size: 5rem ;
+}
+
+#timerBox{
+   /* border: 1px solid red ;*/
+    height: 40vh ;
+    width:70rem ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#timerBox input{
+    border: 3px dotted #4eaadb ;
+    height: 20vh ;
+    width:20vw; ;
+    border-radius: 2rem ;
+    
+}
+#timerBox input::placeholder{
+    color:red;
+    font-size: 5rem ;
+     font-family: cursive;
+     text-align: center;
+}
+#div1,#div2,#div3{
+   
+   border: 3px dotted #4eaadb ;
+    height: 20vh ;
+    width:20vw; ;
+    border-radius: 2rem ;
+    color:red;
+    font-size: 5rem ;
+     font-family: cursive;
+     box-sizing: border-box;
+     padding-top: 2.4rem;
+     padding-bottom: 2.4rem ;
+     padding-left: 7.5rem ;
+     padding-right: 7.5rem ;
+}
+
+
+#timerbtnDiv{
+    /*border: 1px solid green ;*/
+    height: 10vh ;
+    width:35rem ;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+
+}
+#timerbtnDiv button{
+    border-radius: 1rem ;
+     height: 5rem ;
+     width: fit-content;
+     padding: 0.5rem ;
+     background-color:#4eaadb ;
+     font-size: 2.5rem ;
+     font-family: cursive;
+     color: white;
+
+}
+#timerbtnDiv button:hover{
+    border-radius: 1.5rem ;
+    color:red;
+     cursor:pointer;
+
+}
+
+
+
+/*css for stop watch (zz2)*/
+#stopWatchDiv{
+   
+    height: 40vh;
+    width: 60vw  ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#stopWatchDiv1,#stopWatchDiv3{
+    
+    border: 4px dotted #4eaadb;
+    border-radius: 1rem ;
+    height: 18rem ;
+    width:18rem ; 
+    font-size: 14rem;
+    text-align: center;
+}
+#stopWatchDiv2{
+   /*border: 2px dotted #4eaadb;*/
+    height: 10rem ;
+    width:5rem ; 
+    font-size: 8rem;
+    text-align: center;
+
+}
+#StopWatchBtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    width:30vw;
+}
+#StopWatchBtn button{
+    border-radius: 1rem ;
+     height: 5.5rem ;
+     width: fit-content;
+     padding: 0.8rem ;
+     background-color:#4eaadb ;
+     font-size: 2.5rem ;
+     font-family: cursive;
+     color: white;
+
+}
+#StopWatchBtn button:hover{
+    border-radius: 1.5rem ;
+    color:red;
+     cursor:pointer;
+
+}
+/*css for contact us page */
+.label{
+    font-size: 2rem ;
+}
+#name{
+    height: 2.5rem;
+    width:40vw;
+}
+#email{
+    height: 2.5rem;
+    width:40vw;
+
+}
+#message{
+    width: 40vw;
+    height: 8rem ;
+}
+#formbtn{
+    display: block;
+    margin-left: 10vw;
+    margin-top: 0.5rem ;
+}
+
+/*css for tools dropdown menu */
+
+
+/*whe it hover on #navbar ul li,, .dropdownMenu{
+ display:block....} */
+ #dropdownMenu{
+    display: none;
+    background-color:#4eaadb ;
+    
+    cursor:progress;
+   
+    position: absolute;
+    top:8rem ;
+
+}
+#dropdownMenu ul{
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+    width: 13vw;
+    height: 20rem ;
+    background-color:#4eaadb;
+
+}
+#dropdownMenu ul li{
+    
+   
+    font-size: 2.0rem ;
+    font-family: cursive;
+    padding-top:1rem  ;
+    padding-bottom: 1rem;
+}
+
+
+/*CSS FOR NIGHT MODE */
+#nightMode{
+    
+    position: relative;
+    display: none;
+    
+}
+
+
+#innerBoxNightMode{
+    
+    position: absolute;
+    top: 3rem ;
+    right: 0.2rem ;
+    padding-top: 1rem ;
+    padding-bottom: 1rem ;
+    border-radius: 1.5rem ;
+    border: 0.5px solid white;
+    
+    
+    font-size: 2rem ;
+    font-family: cursive;
+    background-color: black;
+    color: white;
+}
+
+/*css for holidays*/
+#calender{
+    border: 2px double red;
+    display: block;
+    overflow: scroll;
+    height: 42vh;
+    width:70vw; 
+    padding: 2rem  ;
+    color: blue;
+    font-size: 2rem ;
+    font-family: cursive;
+}
+
+
+    

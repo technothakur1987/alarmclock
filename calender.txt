@@ -1,0 +1,79 @@
+
+Date	 	Name		Type
+1 Jan		Saturday	New Year's Day	Restricted Holiday
+9 Jan		Sunday		Guru Govind Singh Jayanti	Restricted Holiday
+13 Jan		Thursday	Lohri	Restricted Holiday
+14 Jan		Friday		Pongal	Restricted Holiday
+14 Jan		Friday		Makar Sankranti	Restricted Holiday
+26 Jan		Wednesday	Republic Day	Gazetted Holiday
+1 Feb		Tuesday		Lunar New Year	Observance
+5 Feb		Saturday	Vasant Panchami	Restricted Holiday
+14 Feb		Monday		Valentine's Day	Observance
+15 Feb		Tuesday		Hazarat Ali's Birthday	Restricted Holiday
+16 Feb		Wednesday	Guru Ravidas Jayanti	Restricted Holiday
+19 Feb		Saturday	Shivaji Jayanti	Restricted Holiday
+26 Feb		Saturday	Maharishi Dayanand Saraswati Jayanti	Restricted Holiday
+1 Mar		Tuesday		Maha Shivaratri/Shivaratri	Gazetted Holiday
+17 Mar		Thursday	Holika Dahana	Restricted Holiday
+18 Mar		Friday		Holi	Gazetted Holiday
+18 Mar		Friday		Dolyatra	Restricted Holiday
+20 Mar		Sunday		March Equinox	Season
+2 Apr		Saturday	Chaitra Sukhladi	Restricted Holiday
+2 Apr		Saturday	Ugadi	Restricted Holiday
+2 Apr		Saturday	Gudi Padwa	Restricted Holiday
+10 Apr		Sunday		Rama Navami	Restricted Holiday
+14 Apr		Thursday	Maundy Thursday	Observance, Christian
+14 Apr		Thursday	Mahavir Jayanti	Gazetted Holiday
+14 Apr		Thursday	Vaisakhi	Restricted Holiday
+14 Apr		Thursday	Mesadi / Vaisakhadi	Restricted Holiday
+14 Apr		Thursday	Ambedkar Jayanti	Observance
+15 Apr		Friday		Good Friday	Gazetted Holiday
+16 Apr		Saturday	First day of Passover	Observance
+17 Apr		Sunday		Easter Day	Restricted Holiday
+29 Apr		Friday		Jamat Ul-Vida (Tentative Date)	Restricted Holiday
+1 May		Sunday		International Worker's Day	Observance
+3 May		Tuesday		Ramzan Id/Eid-ul-Fitar	Gazetted Holiday
+3 May		Tuesday		Ramzan Id/Eid-ul-Fitar	Muslim, Common local holiday
+8 May		Sunday		Mother's Day	Observance
+9 May		Monday		Birthday of Rabindranath	Restricted Holiday
+16 May		Monday		Buddha Purnima/Vesak	Gazetted Holiday
+19 Jun		Sunday		Father's Day	Observance
+21 Jun		Tuesday		June Solstice	Season
+1 Jul		Friday		Rath Yatra	Restricted Holiday
+10 Jul		Sunday		Bakr Id/Eid ul-Adha (Tentative Date)	Gazetted Holiday
+13 Jul		Wednesday	Guru Purnima	Observance
+7 Aug		Sunday		Friendship Day	Observance
+9 Aug		Tuesday		Muharram/Ashura (Tentative Date)	Gazetted Holiday
+11 Aug		Thursday	Raksha Bandhan (Rakhi)	Restricted Holiday
+15 Aug		Monday		Independence Day	Gazetted Holiday
+16 Aug		Tuesday		Parsi New Year	Restricted Holiday
+18 Aug		Thursday	Janmashtami (Smarta)	Restricted Holiday
+19 Aug		Friday			Janmashtami	Gazetted Holiday
+31 Aug		Wednesday	Ganesh Chaturthi/Vinayaka Chaturthi	Restricted Holiday
+8 Sep		Thursday	Onam	Restricted Holiday
+23 Sep		Friday		September Equinox	Season
+26 Sep		Monday		First Day of Sharad Navratri	Observance, Hinduism
+1 Oct		Saturday	First Day of Durga Puja Festivities	Observance, Hinduism
+2 Oct		Sunday		Mahatma Gandhi Jayanti	Gazetted Holiday
+2 Oct		Sunday		Maha Saptami	Restricted Holiday
+3 Oct		Monday		Maha Ashtami	Restricted Holiday
+4 Oct		Tuesday		Maha Navami	Restricted Holiday
+5 Oct		Wednesday	Dussehra	Gazetted Holiday
+9 Oct		Sunday		Maharishi Valmiki Jayanti	Restricted Holiday
+9 Oct		Sunday		Milad un-Nabi/Id-e-Milad (Tentative Date)	Gazetted Holiday
+13 Oct		Thursday	Karaka Chaturthi (Karva Chauth)	Restricted Holiday
+24 Oct		Monday		Naraka Chaturdasi	Restricted Holiday
+24 Oct		Monday		Diwali/Deepavali	Gazetted Holiday
+25 Oct		Tuesday		Govardhan Puja	Restricted Holiday
+26 Oct		Wednesday	Bhai Duj	Restricted Holiday
+30 Oct		Sunday		Chhat Puja (Pratihar Sashthi/Surya Sashthi)	Restricted Holiday
+31 Oct		Monday		Halloween	Observance
+8 Nov		Tuesday		Guru Nanak Jayanti	Gazetted Holiday
+24 Nov		Thursday	Guru Tegh Bahadur's Martyrdom Day	Restricted Holiday
+19 Dec		Monday		First Day of Hanukkah	Observance
+22 Dec		Thursday	December Solstice	Season
+24 Dec		Saturday	Christmas Eve	Restricted Holiday
+25 Dec		Sunday		Christmas	Gazetted Holiday
+26 Dec		Monday		Last day of Hanukkah	Observance
+29 Dec		Thursday	Guru Govind Singh Jayanti	Restricted Holiday
+31 Dec		Saturday	New Year's Eve	Observance
